@@ -62,32 +62,6 @@ Basic tests for critical backend routes (if tests folder present).
 
 Optional: Postman collection / Swagger (if included, located in /docs).
 
-Repo structure
-/ (root)
-├─ backend/
-│  ├─ src/
-│  │  ├─ controllers/
-│  │  ├─ services/
-│  │  ├─ models/
-│  │  ├─ dtos/
-│  │  ├─ middlewares/
-│  │  └─ utils/
-│  ├─ tests/
-│  ├─ package.json
-│  └─ server.ts
-├─ frontend/
-│  ├─ src/
-│  │  ├─ components/
-│  │  ├─ pages/   (or app/ if Next.js)
-│  │  ├─ services/
-│  │  └─ utils/
-│  ├─ public/
-│  └─ package.json
-├─ mobile/ (optional)
-│  └─ ...
-├─ .gitignore
-├─ README.md
-└─ .env.example
 
 Prerequisites
 
